@@ -1,0 +1,51 @@
+2026-08-28 02:13:37.698 [warning] Dir "/home/arizaikhlas01/.pixi/envs" is not watchable (directory does not exist)
+2026-08-28 02:13:46.614 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-08-28 02:13:58.502 [info] Python interpreter path: /bin/python
+2026-08-28 02:13:58.543 [info] > conda info --json
+2026-08-28 02:13:58.662 [info] > pyenv which python
+2026-08-28 02:13:58.662 [info] cwd: .
+2026-08-28 02:14:07.482 [info] Starting Jedi language server for arizaikhlas01.
+2026-08-28 02:15:44.067 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '/',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/arizaikhlas01/coffee-mgr-agent/requirements.txt
+2026-08-28 02:15:44.067 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./coffee-mgr-agent/requirements.txt
+2026-08-28 02:15:50.957 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '/',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/arizaikhlas01/coffee-mgr-agent/requirements.txt
+2026-08-28 02:15:50.957 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./coffee-mgr-agent/requirements.txt

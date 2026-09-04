@@ -1,0 +1,6 @@
+2026-09-01 16:26:26.364 [error] Request textDocument/documentColor failed.
+Error: Starting server failed
+    at Bb.$start (/google/devshell/editor/code-oss-for-cloud-shell/extensions/html-language-features/client/dist/node/htmlClientMain.js:16:10999)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Bb.sendRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/html-language-features/client/dist/node/htmlClientMain.js:12:136634)
+    at Fk.provideColors (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:154:147508)

@@ -1,0 +1,8 @@
+2026-08-27 02:38:30.967 [warning] Dir "/home/arizaikhlas01/.pixi/envs" is not watchable (directory does not exist)
+2026-08-27 02:38:36.121 [info] > conda info --json
+2026-08-27 02:38:36.203 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-08-27 02:38:49.088 [info] > pyenv which python
+2026-08-27 02:38:49.088 [info] cwd: .
+2026-08-27 02:38:49.381 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-08-27 02:38:49.570 [info] Python interpreter path: /bin/python
+2026-08-27 02:38:54.437 [info] Starting Jedi language server for arizaikhlas01.

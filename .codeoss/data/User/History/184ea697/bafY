@@ -1,0 +1,5 @@
+# Port aplikasi lokal
+PORT=8080
+
+# Google OAuth Client ID Anda dari Google Cloud Console
+GOOGLE_CLIENT_ID=YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com

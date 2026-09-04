@@ -1,0 +1,153 @@
+2026-08-27 02:38:26.890 [info] Extension host with pid 1611 started
+2026-08-27 02:38:26.890 [error] Error: EEXIST: file already exists, open '/home/arizaikhlas01/.codeoss/data/User/workspaceStorage/-7983155e/vscode.lock'
+2026-08-27 02:38:26.905 [info] Lock '/home/arizaikhlas01/.codeoss/data/User/workspaceStorage/-7983155e/vscode.lock': Could not acquire lock, checking if the file is stale.
+2026-08-27 02:38:26.906 [info] Lock '/home/arizaikhlas01/.codeoss/data/User/workspaceStorage/-7983155e/vscode.lock': The pid 7826 appears to be gone.
+2026-08-27 02:38:26.906 [info] Lock '/home/arizaikhlas01/.codeoss/data/User/workspaceStorage/-7983155e/vscode.lock': Deleting a stale lock.
+2026-08-27 02:38:26.919 [info] Lock '/home/arizaikhlas01/.codeoss/data/User/workspaceStorage/-7983155e/vscode.lock': Lock acquired.
+2026-08-27 02:38:27.466 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-08-27 02:38:27.468 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-08-27 02:38:27.469 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2026-08-27 02:38:27.469 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2026-08-27 02:38:27.470 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2026-08-27 02:38:29.249 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-08-27 02:38:30.076 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-08-27 02:38:30.076 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-08-27 02:38:30.624 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-27 02:38:30.624 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-27 02:38:30.625 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-27 02:38:31.435 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onCommand:cloudshell.authorize'
+2026-08-27 02:38:31.805 [error] CodeExpectedError: Unable to write to User Settings because cloudShell.cloudShell.showCloudCodeInstallHint is not a registered configuration.
+    at j5t.z (https://970-cs-5df6b735-f6c4-461f-821a-ee8c908850bf.cs-asia-southeast1-kelp.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:4657:6793)
+    at j5t.F (https://970-cs-5df6b735-f6c4-461f-821a-ee8c908850bf.cs-asia-southeast1-kelp.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:4657:9255)
+    at j5t.o (https://970-cs-5df6b735-f6c4-461f-821a-ee8c908850bf.cs-asia-southeast1-kelp.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:4657:3874)
+    at Object.factory (https://970-cs-5df6b735-f6c4-461f-821a-ee8c908850bf.cs-asia-southeast1-kelp.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:4657:3774)
+    at Sy.j (https://970-cs-5df6b735-f6c4-461f-821a-ee8c908850bf.cs-asia-southeast1-kelp.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:30:76318)
+    at https://970-cs-5df6b735-f6c4-461f-821a-ee8c908850bf.cs-asia-southeast1-kelp.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:30:76230
+    at new Promise (<anonymous>)
+    at Sy.queue (https://970-cs-5df6b735-f6c4-461f-821a-ee8c908850bf.cs-asia-southeast1-kelp.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:30:76172)
+    at j5t.writeConfiguration (https://970-cs-5df6b735-f6c4-461f-821a-ee8c908850bf.cs-asia-southeast1-kelp.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:4657:3743)
+    at Tes.Hb (https://970-cs-5df6b735-f6c4-461f-821a-ee8c908850bf.cs-asia-southeast1-kelp.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:4657:42899)
+    at async Promise.all (index 0)
+    at async Object.e [as settled] (https://970-cs-5df6b735-f6c4-461f-821a-ee8c908850bf.cs-asia-southeast1-kelp.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:30:82093)
+    at async Tes.updateValue (https://970-cs-5df6b735-f6c4-461f-821a-ee8c908850bf.cs-asia-southeast1-kelp.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:4657:31245)
+2026-08-27 02:38:33.215 [info] Eager extensions activated
+2026-08-27 02:38:33.215 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2026-08-27 02:38:33.216 [info] ExtensionService#_doActivateExtension googlecloudtools.datacloud, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2026-08-27 02:38:33.216 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-08-27 02:38:33.217 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2026-08-27 02:38:33.217 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-08-27 02:38:40.668 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2026-08-27 02:38:49.132 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-08-27 03:11:54.260 [error] Error: Webview not found
+    at module$exports$google3$third_party$cloudcode$vscode$common$packages$angular$2dpanel$angular_panel.AngularPanel.closePanel (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1029103:80)
+    at Object.next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038164:116)
+    at module$contents$google3$third_party$javascript$rxjs$src$internal$Subscriber_ConsumerObserver.next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025586:191)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Subscriber.SafeSubscriber._next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025585:115)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Subscriber.SafeSubscriber.next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025583:498)
+    at tp.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025719:475)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$sql_editor$exthost$sql_query$query_settings$query_settings_manager_impl.QuerySettingsManagerImpl.closeQuerySettingsView (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038046:559)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038237:54
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Observable.Observable._subscribe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025646:1255)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Observable.Observable._trySubscribe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025595:43)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Observable.Observable.subscribe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025594:499)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$rx_scope.RxScope.subscribeUntilDisposed (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025721:302)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$rx_scope.RxScope.runBackgroundTask (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025721:56)
+    at SqlEditorPlugin.renameSqlEntries (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038236:462)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038229:148
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:265:114315)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.D (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2753)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2970)
+    at bee.$onDidRunFileOperation (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:154:117885)
+    at sx.S (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:138110)
+    at sx.Q (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:137890)
+    at sx.M (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:136979)
+    at sx.L (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:136084)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:134881)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at Aa.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:9601)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:429:9358)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at Aa.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:9601)
+    at $w.A (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:12717)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:11137)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at W4.acceptChunk (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:8084)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:7370)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at DH.w (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:22385)
+    at DH.acceptFrame (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:22191)
+    at $H.n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:20661)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:17893
+    at Socket.t (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:15752)
+    at Socket.emit (node:events:509:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Socket.Readable.push (node:internal/streams/readable:394:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-08-27 04:39:08.312 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at qS.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:41918)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:99:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:83:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:51:35)
+    at c.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:322:11)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:313:117)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:14:12516584) cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2026-08-27 04:39:08.313 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at qS.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:41918)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:99:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:83:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:51:35)
+    at c.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:322:11)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:313:117)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:14:12516584) cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2026-08-27 04:39:09.326 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:51:35)
+    at c.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:322:11)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:313:117)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:14:12516584)
+2026-08-27 04:39:09.349 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:51:35)
+    at c.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:322:11)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:313:117)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:14:12516584)
+2026-08-27 04:39:21.374 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at qS.h (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:41918)
+    at module$exports$google3$third_party$cloudcode$vscode$common$packages$cloudshell$authorization.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1031976:3)
+    at module$exports$google3$third_party$cloudcode$vscode$common$packages$cloudshell$authorization.CloudShellTheiaAuth.runAuthorization (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1031975:13)
+    at CloudShellAuthProvider.getAccessToken (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1031853:3)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$services$datacloud_experimentation_service.DatacloudExperimentationService.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1027563:63)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$services$datacloud_experimentation_service.DatacloudExperimentationService.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1030518:367)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$services$datacloud_experimentation_service.DatacloudExperimentationService.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1027562:376) cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2026-08-27 04:39:21.375 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at qS.h (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:41918)
+    at module$exports$google3$third_party$cloudcode$vscode$common$packages$cloudshell$authorization.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1031976:3)
+    at module$exports$google3$third_party$cloudcode$vscode$common$packages$cloudshell$authorization.CloudShellTheiaAuth.runAuthorization (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1031975:13)
+    at CloudShellAuthProvider.getAccessToken (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1031853:3)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$services$datacloud_experimentation_service.DatacloudExperimentationService.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1027563:63)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$services$datacloud_experimentation_service.DatacloudExperimentationService.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1030518:367)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$services$datacloud_experimentation_service.DatacloudExperimentationService.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1027562:376) cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2026-08-27 04:39:22.379 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:51:35)
+    at c.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:322:11)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:313:117)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:14:12516584)
+2026-08-27 04:39:22.381 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at module$exports$google3$third_party$cloudcode$vscode$common$packages$cloudshell$authorization.CloudShellTheiaAuth.runAuthorization (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1031975:210)
+    at CloudShellAuthProvider.getAccessToken (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1031853:3)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$services$datacloud_experimentation_service.DatacloudExperimentationService.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1027563:63)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$services$datacloud_experimentation_service.DatacloudExperimentationService.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1030518:367)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$services$datacloud_experimentation_service.DatacloudExperimentationService.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1027562:376)

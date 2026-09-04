@@ -1,0 +1,221 @@
+2026-09-01 14:47:17.715 [info] Extension host with pid 1480 started
+2026-09-01 14:47:17.731 [info] Lock '/home/arizaikhlas01/.codeoss/data/User/workspaceStorage/-7983155e/vscode.lock': Lock acquired.
+2026-09-01 14:47:18.200 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-01 14:47:18.204 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-01 14:47:18.206 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2026-09-01 14:47:18.207 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2026-09-01 14:47:19.694 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-01 14:47:20.187 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-01 14:47:20.188 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-01 14:47:21.321 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onCommand:cloudshell.isAuthorized'
+2026-09-01 14:47:22.426 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-01 14:47:22.428 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-01 14:47:27.102 [info] Not activating extension 'ms-python.python': Timed out while searching for 'workspaceContains' pattern **/pylock.*.toml
+2026-09-01 14:47:27.102 [info] Not activating extension 'redhat.java': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2026-09-01 14:47:27.102 [info] Not activating extension 'vscjava.vscode-java-dependency': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2026-09-01 14:47:27.102 [info] Not activating extension 'vscjava.vscode-java-test': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2026-09-01 14:47:27.102 [info] Not activating extension 'vscjava.vscode-maven': Timed out while searching for 'workspaceContains' pattern **/pom.xml
+2026-09-01 14:47:27.380 [info] Eager extensions activated
+2026-09-01 14:47:27.381 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2026-09-01 14:47:27.387 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2026-09-01 14:47:27.387 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-01 14:47:27.387 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2026-09-01 14:47:27.390 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-01 14:47:28.798 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-09-01 14:47:29.541 [info] ExtensionService#_doActivateExtension googlecloudtools.datacloud, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2026-09-01 14:47:36.362 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2026-09-01 14:47:42.178 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-09-01 14:49:20.053 [error] Error: Webview not found
+    at module$exports$google3$third_party$cloudcode$vscode$common$packages$angular$2dpanel$angular_panel.AngularPanel.closePanel (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1029103:80)
+    at Object.next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038164:116)
+    at module$contents$google3$third_party$javascript$rxjs$src$internal$Subscriber_ConsumerObserver.next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025586:191)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Subscriber.SafeSubscriber._next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025585:115)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Subscriber.SafeSubscriber.next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025583:498)
+    at tp.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025719:475)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$sql_editor$exthost$sql_query$query_settings$query_settings_manager_impl.QuerySettingsManagerImpl.closeQuerySettingsView (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038046:559)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038237:54
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Observable.Observable._subscribe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025646:1255)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Observable.Observable._trySubscribe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025595:43)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Observable.Observable.subscribe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025594:499)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$rx_scope.RxScope.subscribeUntilDisposed (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025721:302)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$rx_scope.RxScope.runBackgroundTask (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025721:56)
+    at SqlEditorPlugin.renameSqlEntries (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038236:462)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038229:148
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:265:114315)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.D (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2753)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2970)
+    at bee.$onDidRunFileOperation (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:154:117885)
+    at sx.S (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:138110)
+    at sx.Q (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:137890)
+    at sx.M (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:136979)
+    at sx.L (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:136084)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:134881)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at Aa.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:9601)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:429:9358)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at Aa.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:9601)
+    at $w.A (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:12717)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:11137)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at W4.acceptChunk (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:8084)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:7370)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at DH.w (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:22385)
+    at DH.acceptFrame (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:22191)
+    at $H.n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:20661)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:17893
+    at Socket.t (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:15752)
+    at Socket.emit (node:events:509:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Socket.Readable.push (node:internal/streams/readable:394:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-09-01 14:50:20.734 [error] Error: Webview not found
+    at module$exports$google3$third_party$cloudcode$vscode$common$packages$angular$2dpanel$angular_panel.AngularPanel.closePanel (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1029103:80)
+    at Object.next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038164:116)
+    at module$contents$google3$third_party$javascript$rxjs$src$internal$Subscriber_ConsumerObserver.next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025586:191)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Subscriber.SafeSubscriber._next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025585:115)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Subscriber.SafeSubscriber.next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025583:498)
+    at tp.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025719:475)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$sql_editor$exthost$sql_query$query_settings$query_settings_manager_impl.QuerySettingsManagerImpl.closeQuerySettingsView (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038046:559)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038237:54
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Observable.Observable._subscribe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025646:1255)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Observable.Observable._trySubscribe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025595:43)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Observable.Observable.subscribe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025594:499)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$rx_scope.RxScope.subscribeUntilDisposed (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025721:302)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$rx_scope.RxScope.runBackgroundTask (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025721:56)
+    at SqlEditorPlugin.renameSqlEntries (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038236:462)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038229:148
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:265:114315)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.D (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2753)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2970)
+    at bee.$onDidRunFileOperation (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:154:117885)
+    at sx.S (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:138110)
+    at sx.Q (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:137890)
+    at sx.M (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:136979)
+    at sx.L (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:136084)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:134881)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at Aa.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:9601)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:429:9358)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at Aa.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:9601)
+    at $w.A (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:12717)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:11137)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at W4.acceptChunk (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:8084)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:7370)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at DH.w (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:22385)
+    at DH.acceptFrame (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:22191)
+    at $H.n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:20661)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:17893
+    at Socket.t (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:15752)
+    at Socket.emit (node:events:509:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Socket.Readable.push (node:internal/streams/readable:394:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-09-01 15:04:01.904 [error] Error: Webview not found
+    at module$exports$google3$third_party$cloudcode$vscode$common$packages$angular$2dpanel$angular_panel.AngularPanel.closePanel (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1029103:80)
+    at Object.next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038164:116)
+    at module$contents$google3$third_party$javascript$rxjs$src$internal$Subscriber_ConsumerObserver.next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025586:191)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Subscriber.SafeSubscriber._next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025585:115)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Subscriber.SafeSubscriber.next (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025583:498)
+    at tp.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025719:475)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$sql_editor$exthost$sql_query$query_settings$query_settings_manager_impl.QuerySettingsManagerImpl.closeQuerySettingsView (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038046:559)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038237:54
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Observable.Observable._subscribe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025646:1255)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Observable.Observable._trySubscribe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025595:43)
+    at module$exports$google3$third_party$javascript$rxjs$src$internal$Observable.Observable.subscribe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025594:499)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$rx_scope.RxScope.subscribeUntilDisposed (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025721:302)
+    at module$exports$google3$cloud$developer_experience$datacloud_vscode$common$exthost$rx_scope.RxScope.runBackgroundTask (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1025721:56)
+    at SqlEditorPlugin.renameSqlEntries (/google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038236:462)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/googlecloudtools.datacloud/datacloud_vscode.js:1038229:148
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:265:114315)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.D (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2753)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2970)
+    at bee.$onDidRunFileOperation (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:154:117885)
+    at sx.S (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:138110)
+    at sx.Q (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:137890)
+    at sx.M (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:136979)
+    at sx.L (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:136084)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:134881)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at Aa.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:9601)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:429:9358)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at Aa.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:9601)
+    at $w.A (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:12717)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:11137)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at W4.acceptChunk (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:8084)
+    at tp.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:7370)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2683)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2901)
+    at DH.w (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:22385)
+    at DH.acceptFrame (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:22191)
+    at $H.n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:20661)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:17893
+    at Socket.t (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:15752)
+    at Socket.emit (node:events:509:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Socket.Readable.push (node:internal/streams/readable:394:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-09-01 15:46:14.318 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2026-09-01 15:47:42.723 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2026-09-01 15:47:58.673 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-09-01 15:47:58.676 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-09-01 16:26:26.100 [info] Extension host terminating: received terminate message from renderer
+2026-09-01 16:26:26.101 [info] Lock '/home/arizaikhlas01/.codeoss/data/User/workspaceStorage/-7983155e/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-09-01 16:26:26.378 [error] [vscode.html-language-features] provider FAILED
+2026-09-01 16:26:26.378 [error] Error: Starting server failed
+    at Bb.$start (/google/devshell/editor/code-oss-for-cloud-shell/extensions/html-language-features/client/dist/node/htmlClientMain.js:16:10999)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Bb.sendRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/html-language-features/client/dist/node/htmlClientMain.js:12:136634)
+    at Fk.provideColors (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:154:147508)
+2026-09-01 16:26:26.648 [error] Error: Channel has been closed
+    at n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:3003)
+    at Object.info (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:3348)
+    at QT.info (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:14:709)
+    at ChildProcess.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:19:48759)
+    at ChildProcess.emit (node:events:509:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-01 16:26:26.650 [error] Error: Channel has been closed
+    at n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:3003)
+    at Object.info (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:3348)
+    at Bb.info (/google/devshell/editor/code-oss-for-cloud-shell/extensions/html-language-features/client/dist/node/htmlClientMain.js:14:519)
+    at ChildProcess.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/html-language-features/client/dist/node/htmlClientMain.js:19:48759)
+    at ChildProcess.emit (node:events:509:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-01 16:26:26.668 [error] Error: Channel has been closed
+    at r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:2618)
+    at Object.appendLine (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:2757)
+    at P.logOutputMessage (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2100381)
+    at P.error (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2100272)
+    at ChildProcess.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2317508)
+    at ChildProcess.emit (node:events:509:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-01 16:26:26.717 [info] Extension host with pid 1480 exiting with code 0

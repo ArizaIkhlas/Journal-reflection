@@ -1,0 +1,6 @@
+{
+  "name": "Gemini Reflection & Journal Studio",
+  "description": "Studio jurnal dan refleksi multi-turn dengan autentikasi Google Sign-In, penyimpanan Cloud Firestore terisolasi per pengguna, dan kecerdasan AI Gemini 3.6 Flash.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

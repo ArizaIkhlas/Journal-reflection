@@ -1,0 +1,240 @@
+2026-08-27 05:50:16.433 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1"
+
+2026-08-27 05:50:16.674 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5"
+
+2026-08-27 05:50:43.767 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "12"
+
+2026-08-27 05:50:43.769 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "13"
+
+2026-08-27 05:50:44.870 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "14"
+
+2026-08-27 05:50:44.872 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "15"
+
+2026-08-27 05:50:44.883 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "16"
+
+2026-08-27 06:59:35.545 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "103"
+
+2026-08-27 06:59:37.360 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "106"
+
+2026-08-27 06:59:37.362 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "105"
+
+2026-08-27 06:59:37.380 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "107"
+
+2026-08-27 06:59:37.435 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "108"
+
+2026-08-27 06:59:37.437 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "110"
+
+2026-08-27 06:59:37.456 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "111"
+
+2026-08-27 06:59:37.499 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "109"
+
+2026-08-27 06:59:48.802 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "124"
+
+2026-08-27 07:29:18.414 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "159"
+
+2026-08-27 07:29:35.930 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "174"
+
+2026-08-27 07:30:03.415 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "181"
+
+2026-08-27 07:36:09.037 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "251"
+
+2026-08-27 07:36:14.447 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "272"
+
+2026-08-27 07:36:14.658 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "274"
+
+2026-08-27 07:46:15.583 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "299"
+
+2026-08-27 07:50:35.594 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "322"
+
+2026-08-27 08:02:29.868 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "375"
+
+2026-08-27 08:02:50.465 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "402"
+
+2026-08-27 08:02:50.828 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "404"
+
+2026-08-27 08:02:50.828 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "403"
+
+2026-08-27 08:02:51.186 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "405"
+
+2026-08-27 08:02:51.630 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 409 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='file:///home/arizaikhlas01/data-agent/agent.py'), position=71:7, work_done_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 487, in hover
+    jedi_script.help(*jedi_lines),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 372, in help
+    definitions = self.goto(line, column, follow_imports=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 300, in goto
+    names = list(name.goto())
+                 ^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/names.py", line 182, in goto
+    value_set = context.infer_node(to_infer[0])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node
+    return infer_or_test(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test
+    types = context.infer_node(next(iterator))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node
+    return infer_or_test(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test
+    types = context.infer_node(next(iterator))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node
+    return infer_atom(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 314, in infer_atom
+    assert False, 'Cannot infer the keyword %s' % atom
+           ^^^^^
+AssertionError: Cannot infer the keyword <Keyword: import>
+
+2026-08-27 08:02:51.635 [info] [Error - 8:02:51 AM] Request textDocument/hover failed.
+2026-08-27 08:02:51.635 [info]   Message: AssertionError: Cannot infer the keyword <Keyword: import>
+  Code: -32603 
+[object Object]
+2026-08-27 08:02:51.638 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "409"
+
+2026-08-27 08:03:11.590 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "412"
+
+2026-08-27 08:03:21.132 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "416"
+
+2026-08-27 08:03:21.951 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "417"
+
+2026-08-27 08:03:22.725 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "418"
+
+2026-08-27 08:03:22.733 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "419"
+
+2026-08-27 08:03:22.748 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "420"
+
+2026-08-27 08:03:23.552 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "421"
+
+2026-08-27 08:03:23.553 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "422"
+
+2026-08-27 08:03:24.340 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "424"
+
+2026-08-27 08:03:25.220 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "423"
+
+2026-08-27 08:03:25.221 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "425"
+
+2026-08-27 08:03:25.228 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "426"
+
+2026-08-27 08:03:25.236 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "427"
+
+2026-08-27 08:03:39.204 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "435"
+
+2026-08-27 08:03:40.805 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "437"
+
+2026-08-27 08:03:40.806 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "436"
+
+2026-08-27 08:03:40.848 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "438"
+
+2026-08-27 08:03:41.026 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "439"
+
+2026-08-27 08:15:54.764 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "485"
+
+2026-08-27 08:25:23.815 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "503"
+
+2026-08-27 08:25:46.217 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 516 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='file:///home/arizaikhlas01/data-agent/agent.py'), position=4:7, work_done_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 486, in hover
+    hover_text = jedi_utils.hover_text(
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 676, in hover_text
+    if _hover_ignore(name, initialization_options):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 657, in _hover_ignore
+    ignore_type: HoverDisableOptions = getattr(
+                                       ^^^^^^^^
+AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+
+2026-08-27 08:25:46.221 [info] [Error - 8:25:46 AM] Request textDocument/hover failed.
+2026-08-27 08:25:46.221 [info]   Message: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+  Code: -32603 
+[object Object]

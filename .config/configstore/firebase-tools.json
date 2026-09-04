@@ -1,0 +1,26 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1788166539731
+	},
+	"gemini": true,
+	"usage": true,
+	"analytics-uuid": "e4d8bc5c-80c3-40d5-857e-ea617dc90fb8",
+	"apiEnablementCache": {
+		"agent-pribadi-506901": {
+			"firestore.googleapis.com": true,
+			"cloudresourcemanager.googleapis.com": true,
+			"cloudbuild.googleapis.com": true,
+			"artifactregistry.googleapis.com": true,
+			"cloudfunctions.googleapis.com": true,
+			"runtimeconfig.googleapis.com": true
+		}
+	},
+	"lastError": 1788168043406
+}

@@ -1,0 +1,15 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+# GCP Service Account Keys
+*-key.json
+credentials.json
+
+# IDE / Editors
+.vscode/
+.idea/

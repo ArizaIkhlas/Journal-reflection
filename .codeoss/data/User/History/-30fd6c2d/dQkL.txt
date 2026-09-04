@@ -1,0 +1,6 @@
+streamlit
+google-adk
+google-genai
+google-cloud-aiplatform
+google-cloud-firestore==2.27.0
+google-genai==2.11.0
