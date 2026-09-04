@@ -507,3 +507,8 @@ rm -rf .gemini/history/code-oss-for-cloud-shell/.git
 rm -rf journal-reflection/.git
 echo ".gemini/" >> .gitignore
 git rm --cached -r .
+git add .
+git commit -m "Initial commit dari Google Cloud"
+git push -u origin main
+git config --global user.email "arizaikhlas01@gmail.com"
+git config --global user.name "ArizaIkhlas"
